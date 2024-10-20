@@ -1,0 +1,36 @@
+{
+  "name": "batpu",
+  "displayName": "Batpu",
+  "description": "Batpu Language Support",
+  "version": "0.0.1",
+  "publisher": "Violette",
+  "icon": "icon.png",
+  "engines": {
+    "vscode": "^1.92.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "as",
+        "aliases": [
+          "Batpu Lang",
+          "as"
+        ],
+        "extensions": [
+          ".as"
+        ],
+        "configuration": "language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "as",
+        "scopeName": "source.as",
+        "path": "syntaxes/as.tmLanguage.json"
+      }
+    ]
+  }
+}
